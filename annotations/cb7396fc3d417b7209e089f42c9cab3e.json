@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Interesting pattern",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Interesting pattern</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/124888815",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-04-19T12:59:48",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1681909187748",
+    "dcterms:modified" : "2023-04-19T12:59:48",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://adam-fox-york.github.io/iiif-manifest-test/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1694,1562,831,482"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1815.95117,1632.35782c76.69939,-40.47873 184.89631,-70.62187 293.61755,-70.58585v0v0c108.72124,0.03601 203.43568,28.23443 293.61755,70.58585c90.18188,42.35142 125.23443,106.88681 121.62037,170.40932c-3.61405,63.52251 -45.89471,126.03215 -121.62037,170.40932c-75.72566,44.37717 -184.89631,70.62187 -293.61755,70.58585c-108.72124,-0.03601 -216.99306,-26.35274 -293.61755,-70.58585c-76.62449,-44.23312 -121.60165,-106.38262 -121.62037,-170.40932c-0.01873,-64.0267 44.92098,-129.9306 121.62037,-170.40932z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_35c1f653-a1e1-41df-a2c5-fecb7a6b7a1d\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://2492187e-b0e8-4b05-a8ed-c0e0e51faa6b"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Circle shape",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Circle shape</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/124888815",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-04-19T13:00:11",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1681909211381",
+    "dcterms:modified" : "2023-04-19T13:00:11",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://adam-fox-york.github.io/iiif-manifest-test/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=504,1355,260,256"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M504.02941,1354.5098h129.77451v0h129.77451v127.96078v127.96078h-129.77451h-129.77451v-127.96078z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_ce7b5c7c-43a6-4b8e-8a40-f6ab91ce9564\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://2492187e-b0e8-4b05-a8ed-c0e0e51faa6b"
+    } ]
+  } ],
+  "@id" : "https://adam-fox-york.github.io/iiif-manifest-test/annotations/cb7396fc3d417b7209e089f42c9cab3e.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
