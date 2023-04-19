@@ -1,0 +1,13 @@
+{
+  "id" : "https://adam-fox-york.github.io/iiif-manifest-test/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in adam-fox-york/iiif-manifest-test project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://adam-fox-york.github.io/iiif-manifest-test/manifests/manifest2.json",
+    "label" : "Interesting objects"
+  } ]
+}
