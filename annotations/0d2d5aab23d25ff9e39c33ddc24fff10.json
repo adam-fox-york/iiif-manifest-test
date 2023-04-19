@@ -1,0 +1,39 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Small scratch on neck",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Small scratch on neck</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/124888815",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-04-19T13:00:47",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1681909247106",
+    "dcterms:modified" : "2023-04-19T13:00:47",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://adam-fox-york.github.io/iiif-manifest-test/manifests/manifest2.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=502,279,105,106"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M501.51005,278.80368h52.44033v0h52.44033v53.04551v53.04551h-52.44033h-52.44033v-53.04551z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_78299c06-7afd-4a77-93bb-1535eb1c0135\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://b9b0a0f3-614c-4e78-a808-4e08f8390ff4"
+    } ]
+  } ],
+  "@id" : "https://adam-fox-york.github.io/iiif-manifest-test/annotations/0d2d5aab23d25ff9e39c33ddc24fff10.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
