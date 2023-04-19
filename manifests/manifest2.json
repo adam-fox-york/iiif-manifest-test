@@ -52,6 +52,11 @@
         },
         "on" : "http://2492187e-b0e8-4b05-a8ed-c0e0e51faa6b"
       } ],
+      "otherContent" : [ {
+        "@id" : "https://adam-fox-york.github.io/iiif-manifest-test/annotations/cb7396fc3d417b7209e089f42c9cab3e.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
       "related" : ""
     }, {
       "@id" : "http://b9b0a0f3-614c-4e78-a808-4e08f8390ff4",
@@ -77,6 +82,11 @@
           "width" : 1143
         },
         "on" : "http://b9b0a0f3-614c-4e78-a808-4e08f8390ff4"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://adam-fox-york.github.io/iiif-manifest-test/annotations/0d2d5aab23d25ff9e39c33ddc24fff10.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "Decanter annotation"
       } ],
       "related" : ""
     }, {
