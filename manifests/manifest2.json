@@ -1,0 +1,122 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://adam-fox-york.github.io/iiif-manifest-test/manifests/manifest2.json",
+  "@type" : "sc:Manifest",
+  "label" : "Interesting objects",
+  "metadata" : [ {
+    "label" : "Author",
+    "value" : "Adam Fox"
+  }, {
+    "label" : "Published",
+    "value" : [ {
+      "@value" : "York, circa 2023",
+      "@language" : "en"
+    } ]
+  } ],
+  "description" : [ {
+    "@value" : "A collection of objects uncovered at various archaeological digs across the UK, and stored digitally with the ADS.",
+    "@language" : "en"
+  } ],
+  "license" : "Creative Commons 4.0 by-nc-sa license",
+  "attribution" : "Archeology Data Service (University of York)",
+  "sequences" : [ {
+    "@id" : "http://4877c678-7eeb-41e9-a219-3600ce9e599c",
+    "@type" : "sc:Sequence",
+    "viewingHint" : "paged",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://2492187e-b0e8-4b05-a8ed-c0e0e51faa6b",
+      "@type" : "sc:Canvas",
+      "label" : "Medieval chess piece",
+      "height" : 2499,
+      "width" : 2775,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://f8e59a4e-1b0f-4584-9b07-2fb51ded5b2d",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://archivelab.gdmrdigital.com/iiif/8139-flbr-14-chess-piece/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://archivelab.gdmrdigital.com/iiif/8139-flbr-14-chess-piece",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 2499,
+          "width" : 2775
+        },
+        "on" : "http://2492187e-b0e8-4b05-a8ed-c0e0e51faa6b"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://b9b0a0f3-614c-4e78-a808-4e08f8390ff4",
+      "@type" : "sc:Canvas",
+      "label" : "Decanter 1",
+      "height" : 1600,
+      "width" : 1143,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://535a16dd-c5d9-4867-b634-4fdc5146dabc",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://archivelab.gdmrdigital.com/iiif/af-decanter-01/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://archivelab.gdmrdigital.com/iiif/af-decanter-01",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 1600,
+          "width" : 1143
+        },
+        "on" : "http://b9b0a0f3-614c-4e78-a808-4e08f8390ff4"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://26221658-1566-4796-a556-366035c92618",
+      "@type" : "sc:Canvas",
+      "label" : "Decanter 2",
+      "height" : 3072,
+      "width" : 4608,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://18812a38-8759-411e-971d-336265d5b4bc",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://archivelab.gdmrdigital.com/iiif/af-decanter-02/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://archivelab.gdmrdigital.com/iiif/af-decanter-02",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3072,
+          "width" : 4608
+        },
+        "on" : "http://26221658-1566-4796-a556-366035c92618"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ {
+    "@id" : "http://example.org/iiif/book1/range/top",
+    "@type" : "sc:Range",
+    "label" : "Table of Content",
+    "viewingHint" : "top",
+    "ranges" : [ "http://example.org/iiif/book1/range/intro" ]
+  }, {
+    "@id" : "http://example.org/iiif/book1/range/intro",
+    "@type" : "sc:Range",
+    "label" : "Introduction",
+    "canvases" : [ "http://2492187e-b0e8-4b05-a8ed-c0e0e51faa6b", "http://b9b0a0f3-614c-4e78-a808-4e08f8390ff4", "http://26221658-1566-4796-a556-366035c92618" ]
+  } ]
+}
