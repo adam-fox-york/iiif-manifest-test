@@ -3,6 +3,11 @@
   "@id" : "https://adam-fox-york.github.io/iiif-manifest-test/manifests/manifest2.json",
   "@type" : "sc:Manifest",
   "label" : "Interesting objects",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/124888815/a05709e6ff939a16c9a8d4c87361e543/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
   "metadata" : [ {
     "label" : "Author",
     "value" : "Adam Fox"
